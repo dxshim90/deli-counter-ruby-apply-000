@@ -18,6 +18,7 @@ def line(katz_deli)
       puts "The line is currently:" current_line
     end
   end
+end
     
     def now_serving(katz_deli)
       if katz_deli.empty? == true
@@ -28,6 +29,7 @@ def line(katz_deli)
       end
     end
   end
+end
   
 
   
