@@ -4,7 +4,8 @@ katz_deli = []
 
 def take_a_number(katz_deli, name)
 katz_deli << (name)
-puts "Welcome to katz deli #{name}, you are #{place} in line"
+place = 
+puts "Welcome to katz deli #{name}, you are #{place+1} in line"
 end
 
 
