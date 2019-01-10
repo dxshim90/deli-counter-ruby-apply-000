@@ -30,5 +30,3 @@ puts "Currently serving #{deli.first}."
 deli.shift
 end
 end
-end
-end
