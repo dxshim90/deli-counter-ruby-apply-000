@@ -13,7 +13,7 @@ def line(katz_deli)
   else
     current_line = []
     katz_deli.each_with_index do |customer, number|
-      current_line.push(customer, number+1)
+      current_line.push(number+1, customer)
       puts "The line is currently:" current_line
     end
   end
