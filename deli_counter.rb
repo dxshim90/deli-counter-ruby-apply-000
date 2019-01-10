@@ -5,7 +5,7 @@ katz_deli = []
 def take_a_number(katz_deli, name)
 katz_deli << (name)
 place = katz_deli.index(name)
-puts "Welcome to katz deli #{name}, you are #{place+1} in line"
+puts "Welcome, #{name}. You are number #{place+1} in line"
 end
 
 
@@ -21,9 +21,9 @@ end
 
 def now_serving(katz_deli)
 if katz_deli.empty? == true
-puts "No one is waiting"
+puts "There is nobody aiting to be served!"
 else
-puts "Now serving #{katz_deli.first}"
+puts "Currently serving #{katz_deli.first}."
 katz_deli.shift
 end
 end
