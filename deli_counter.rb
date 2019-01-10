@@ -16,8 +16,7 @@ puts "The line is currently empty."
 else
   the_line = ""
 deli.each do |customer, position|
-  increase = deli.index(position)
-  the_line << "#{increase+1}. #{customer}"
+  the_line << "#{}. #{customer}"
 end
 puts "The line is currently #{the_line}"
 end
