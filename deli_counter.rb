@@ -16,8 +16,8 @@ puts "The line is currently empty."
 else
   the_line = " "
 deli.each do |customer, position|
-  
-puts "The line is #{poition+1} #{customer}"
+  the_line << 
+puts "The line is #{position+1} #{customer}"
 end
 end
 
