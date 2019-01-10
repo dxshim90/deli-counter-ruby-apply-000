@@ -3,7 +3,7 @@
 katz_deli = []
 
 def take_a_number(katz_deli, name)
-  katz_deli << (name)
+  katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
@@ -13,7 +13,7 @@ def line(katz_deli)
   else
     the_line = "The line is currently:"
     katz_deli.each_with_index do |customer, number|
-      the_line << ("#{number+1}. #{customer}")
+      the_line << "#{number+1}. #{customer}"
       puts the_line
     end
   end
