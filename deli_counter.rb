@@ -13,14 +13,10 @@ def line(katz_deli)
   else
     current_line = []
     katz_deli.each_with_index do |customer, number|
-      current_line.push(number+1, customer)
+      current_line.push(number, customer)
     end
-  end
       puts "The line is currently:" current_line
     end
-    end
-  end
-end
     
     def now_serving(katz_deli)
       if katz_deli.empty? == true
@@ -31,4 +27,3 @@ end
       end
     end
   end
-end
