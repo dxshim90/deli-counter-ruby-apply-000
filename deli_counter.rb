@@ -2,16 +2,16 @@
 
 katz_deli = []
 
-def take_a_number(array, name)
+def take_a_number(katz_deli, name)
   array.push(name)
-  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
 end
 
 def line(katz_deli)
-  if array.empty? == true
+  if katz_deli.empty? == true
     puts "The line is currently empty."
   else
-    array.each_with_index do |customer, number|
+    katz_deli.each_with_index do |customer, number|
       puts "The line is currently: #{number+1} #{customer}"
     end
   end
