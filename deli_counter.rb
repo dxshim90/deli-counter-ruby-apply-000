@@ -10,6 +10,7 @@ end
 def line(katz_deli)
   if array.empty? == true
     puts "The line is currently empty."
+  else
     array.each_with_index do |customer, number|
       puts "The line is currently: #{number+1} #{customer}"
     end
