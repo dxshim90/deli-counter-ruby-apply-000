@@ -4,7 +4,7 @@ katz_deli = []
 
 def take_a_number(katz_deli, name)
 katz_deli << (name)
-place = 
+place = katz_deli.index(name)
 puts "Welcome to katz deli #{name}, you are #{place+1} in line"
 end
 
@@ -12,7 +12,7 @@ end
 
 def line(katz_deli)
 if katz_deli.empty? == true
-puts "There is no one in the line"
+puts "The line is currently empty."
 else
 katz_deli.each do |customer, position|
 puts "The line is #{position+1} #{customer}"
