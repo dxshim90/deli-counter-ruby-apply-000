@@ -11,7 +11,9 @@ def line(katz_deli)
   if katz_deli.empty? == true
     puts "The line is currently empty."
   else
+    current_line = []
     katz_deli.each_with_index do |customer, number|
+      current_line.push(customer, number)
       puts "The line is currently: #{number+1} #{customer}"
     end
   end
