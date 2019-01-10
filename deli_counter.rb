@@ -2,7 +2,7 @@
 
 katz_deli = []
 
-def take_a_number(katz_deli, name)
+def take_a_number(deli, name)
 katz_deli << (name)
 place = katz_deli.index(name)
 puts "Welcome, #{name}. You are number #{place+1} in line."
