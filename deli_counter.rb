@@ -14,7 +14,7 @@ def line(deli)
 if deli.empty? == true
 puts "The line is currently empty."
 else
-  
+  the_line = " "
 deli.each do |customer, position|
 puts "The line is #{poition+1} #{customer}"
 end
