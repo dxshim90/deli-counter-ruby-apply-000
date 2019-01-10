@@ -15,7 +15,7 @@ if katz_deli.empty? == true
 puts "The line is currently empty."
 else
 katz_deli.each do |customer, position|
-puts "The line is #{position} #{customer}"
+puts "The line is #{place+1} #{customer}"
 end
 end
 
