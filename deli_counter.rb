@@ -18,11 +18,11 @@ def line(katz_deli)
   
     
     def now_serving(katz_deli)
-      if array.empty? == true
+      if katz_deli.empty? == true
         puts "There is nobody waiting to be served!"
       else
-        puts "Currently serving #{array.first}."
-        array.shift
+        puts "Currently serving #{katz_deli.first}."
+        katz_deli.shift
       end
     end
   end
