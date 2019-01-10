@@ -13,8 +13,8 @@ def line(katz_deli)
   else
     current_line = []
     katz_deli.each_with_index do |customer, number|
-      current_line.push(customer, number)
-      puts "The line is currently: #{number+1} #{customer}"
+      current_line.push(customer, number+1)
+      puts "The line is currently: current_line
     end
   end
   
