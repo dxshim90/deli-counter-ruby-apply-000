@@ -10,7 +10,7 @@ end
 
 
 
-def line(katz_deli)
+def line(deli)
 if katz_deli.empty? == true
 puts "The line is currently empty."
 else
