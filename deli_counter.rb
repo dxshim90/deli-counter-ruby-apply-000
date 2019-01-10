@@ -2,28 +2,28 @@
 
 katz_deli = []
 
-def line(katz_deli)
-  if katz_deli.empty?
-    puts "The line is currently empty."
-  else
-    the_line = "The line is currently:"
-    deli.each.with_index(1) do |person, index|
-      the_line << " #{index}. #{person}"
-    end
-    puts the_line
-  end
+def take_a_number(katz_deli, name)
+katz_deli << (name)
+puts "Welcome to katz deli #{name}, you are #{place} in line"
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+
+
+def line(katz_deli)
+if katz_deli.empty? == true
+puts "There is no one in the line"
+else
+katz_deli.each do |customer, position|
+puts "The line is #{position+1} #{customer}"
+end
 end
 
 def now_serving(katz_deli)
-  if katz_deli.empty?
-    puts "There is nobody waiting to be served!"
-  else
-    puts "Currently serving #{katz_deli.first}."
-    katz_deli.shift
-  end
+if katz_deli.empty? == true
+puts "No one is waiting"
+else
+puts "Now serving #{katz_deli.first}"
+katz_deli.shift
+end
+end
 end
