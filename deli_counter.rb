@@ -17,7 +17,7 @@ else
   the_line = " "
 deli.each do |customer, position|
   the_line << "#{position+1} #{customer}"
-puts "The line is #{position+1} #{customer}"
+puts "The line is currently 
 end
 end
 
